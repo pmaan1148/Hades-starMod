@@ -1,0 +1,9 @@
+{
+  "name": "MyFirstMod",
+  "displayName": "テスト1",
+  "author": "ピィーマン",
+  "description": "いつか兵器を…",
+  "version": "1.0",
+  "minGameVersion": 147,
+  "main": "main.js"
+}
