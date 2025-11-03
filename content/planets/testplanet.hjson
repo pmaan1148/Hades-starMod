@@ -1,0 +1,8 @@
+name: testplanet
+localizedName: "テスト惑星"
+alwaysUnlocked: true
+visible: true
+accessible: true
+parent: serpulo
+generator: SerpuloPlanetGenerator
+radius: 10
