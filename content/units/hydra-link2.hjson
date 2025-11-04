@@ -1,0 +1,42 @@
+{
+type: flying
+localizedName:"ハイドラリンク2"
+name: myfirstmod-hydra-link2
+description: "ハイドラの最弱版。"
+  flying: true
+  lowAltitude: false
+  targetAir: true
+  targetGround: false
+
+  health: 50000
+  armor: 0
+  speed: 1
+  accel: 0.08
+  drag: 0.03
+  hitSize: 24
+
+  rotateSpeed: 1.5
+
+  weapons: [
+    {
+      name: hydra-focus-cannon
+      x: 0
+      y: 4
+      reload: 60
+      recoil: 4
+      shake: 3
+      shootCone: 10
+      bullet: {
+        type: basicBulletType
+        damage: 200    # 基礎ダメージ
+        speed: 7
+        lifetime: 110
+        width: 18
+        height: 26
+        hitEffect: hitBulletBig
+        shootEffect: shootBig
+        smokeEffect: shootSmall
+      }
+    }
+  ]
+}

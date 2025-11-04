@@ -1,0 +1,36 @@
+name: cerberus-phoenix
+localizedName: "ケルベロスフェニックス"
+description: "フェニックスはエリアシールドを使い、近くにいるケルベロス艦を守る。破壊されると3機のセンチネルを生み出す。"
+type: flying
+flying: true
+health: 12000
+speed: 1.2
+hitSize: 12
+range: 100
+
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 90         # シールドの半径
+    regen: 10           # シールドの回復速度1=60
+    max: 8000           # シールドの最大値
+    cooldown: 36000      # 壊れてから復活するまでのフレーム
+  }
+]
+
+weapons: [
+  {
+    name: "phoenix-cannon"
+    x: 0
+    y: 4
+    reload: 60
+    bullet: {
+      type: BasicBulletType
+      speed: 6
+      damage: 100
+      lifetime: 40
+      width: 12
+      height: 18
+    }
+  }
+]

@@ -1,0 +1,14 @@
+name: mato
+localizedName: "的"
+description: "何の変哲もない的。ただ変なところといえばなぜかいくら攻撃しても壊れないところだ。"
+type: flying
+flying: true
+health: 9990000
+hitSize: 16
+speed: 1
+armor: 990
+drag: 0.05
+range: 360
+targetAir: false
+targetGround: true
+controller: FlyingAI

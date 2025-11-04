@@ -1,0 +1,20 @@
+type: flying
+name: battleship1
+localizedName: "試作戦艦 Lv1"
+health: 5000
+armor: 10
+speed: 0.5
+weapons: [
+  {
+    name: main-gun
+    x: 0
+    y: 10
+    reload: 60
+    bullet: {
+      type: basicBulletType
+      damage: 50
+      speed: 5
+      lifetime: 60
+    }
+  }
+]

@@ -1,0 +1,38 @@
+name: cerberus-destroyer
+localizedName: "ケルベロスデストロイヤー"
+description: "その艦は謎に包まれているが、いきなりワープしてきて、その強力なレーザーで惑星を破壊することは知られている。"
+type: flying
+flying: true
+health: 40000
+hitSize: 24
+speed: 0.4
+armor: 20
+drag: 0.05
+range: 360
+targetAir: false
+targetGround: true
+controller: FlyingAI
+
+weapons: [
+  # メインレーザー
+  {
+    name: "planet-buster-laser"
+    x: 0
+    y: 20
+    mirror: false
+    reload: 20
+    continuous: true
+    shootSound: laserbig
+    bullet: {
+      type: LaserBulletType
+      damage: 6000
+      length: 360
+      width: 24
+      lifetime: 180
+      pierce: true
+      pierceCap: 999
+      colors: [ "#ff0000", "#aa0000", "#660000" ]
+    }
+  }
+]
+ 

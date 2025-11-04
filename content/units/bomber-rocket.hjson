@@ -1,0 +1,49 @@
+type: missile
+name: bomber_rocket
+localizedName: "ボマーロケット"
+description: "直進し、敵に当たるか5秒で自爆する特攻ロケット。"
+
+flying: true
+lowAltitude: true
+speed: 10.0
+accel: 0.05
+drag: 0.01
+hitSize: 10
+health: 1000
+armor: 2
+range: 9999
+
+
+
+# 真っ直ぐ飛ぶだけ
+rotateSpeed: 0.001
+
+# ユニット本体が死んだときの爆発エフェクト
+deathExplosionEffect: massiveExplosion
+deathSound: explosion
+
+weapons: [
+  {
+    name: self-destruct
+    x: 0
+    y: 0
+    reload: 99999
+    shootondeath: true
+    shootCone: 360
+    shootOnDeath: true
+    bullet: {
+      type: BombBulletType
+      damage: 0   
+      splashDamage: 8000
+      splashDamageRadius: 120
+      collidesAir: true
+      collidesGround: false
+      hittable: false
+
+      # 爆発エフェクトを派手に
+      hitEffect: shockwave
+      despawnEffect: massiveExplosion
+      shootEffect: none
+    }
+  }
+]

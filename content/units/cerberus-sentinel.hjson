@@ -1,0 +1,26 @@
+name: cerberus-sentinel
+localizedName: "ケルベロスセンチネル"
+description: "脆いが、強力な艦砲を撃ってくる。単体なら脅威にならないが、集団になると脅威になる。"
+type: flying
+flying: true
+health: 1000
+speed: 1
+hitSize: 8
+range: 100
+
+weapons: [
+  {
+    name: "naval gun"
+    x: 0
+    y: 0
+    reload: 30
+    bullet: {
+      type: BasicBulletType
+      speed: 3
+      damage: 800
+      lifetime: 50
+      width: 7
+      height: 9
+    }
+  }
+]

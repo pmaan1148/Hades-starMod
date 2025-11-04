@@ -1,0 +1,42 @@
+{
+type: flying
+localizedName: "ケルベロスハイドラ"
+name: myfirstmod-cerberus-hydra
+description: "ケルベロス艦隊の最終兵器。巨大な戦艦ハイドラは、圧倒的な装甲と砲撃能力を誇る。"
+  flying: true
+  lowAltitude: false
+  targetAir: true
+  targetGround: false
+
+  health: 200000
+  armor: 0
+  speed: 1
+  accel: 0.08
+  drag: 0.03
+  hitSize: 32
+
+  rotateSpeed: 1.5
+
+  weapons: [
+    {
+      name: hydra-focus-bullet
+      x: 0
+      y: 8
+      reload: 60
+      recoil: 4
+      shake: 3
+      shootCone: 10
+      bullet: {
+        type: basicBulletType
+        damage: 500    # 基礎ダメージ
+        speed: 7
+        lifetime: 110
+        width: 18
+        height: 26
+        hitEffect: hitBulletBig
+        shootEffect: shootBig
+        smokeEffect: shootSmall
+      }
+    }
+  ]
+}
