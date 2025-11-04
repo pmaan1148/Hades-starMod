@@ -2,8 +2,7 @@
   "name": "MyFirstMod",
   "displayName": "ハデススター再現mod",
   "author": "ピィーマン",
-  "description": "全部再現するとは行ってない
-  )",
+  "description": "全部再現するとは行ってない",
   "version": "1.0",
   "minGameVersion": 147,
   "main": "main.js"
