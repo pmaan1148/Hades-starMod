@@ -1,8 +1,9 @@
 {
   "name": "MyFirstMod",
-  "displayName": "テスト1",
+  "displayName": "ハデススター再現mod",
   "author": "ピィーマン",
-  "description": "いつか兵器を…",
+  "description": "全部再現できるとは言ってない()
+  ",
   "version": "1.0",
   "minGameVersion": 147,
   "main": "main.js"
