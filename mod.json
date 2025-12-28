@@ -4,6 +4,7 @@
   "author": "ピィーマン",
   "description": "全部再現できるとは言ってない",
   "version": "1.0",
-  "minGameVersion": 147,
+  "minGameVersion": 146
+,
   "main": "main.js"
 }
