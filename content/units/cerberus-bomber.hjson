@@ -16,6 +16,7 @@ controller: FlyingAI
 weapons: [
   {
     name: rocket-launcher1
+    localizedName:ロケットランチャー
     reload: 300
     shootCone: 10
     bullet: {
